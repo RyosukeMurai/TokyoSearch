@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a22474588e1da02d9d8325cbe07a43a9",
+    "hash": "0ee81ce2378bcee953e4d50be7597a53",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -358,44 +358,6 @@
                 "yii2"
             ],
             "time": "2015-05-07 08:21:26"
-        },
-        {
-            "name": "proseeds/proseeds",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:proseeds/proseeds.git",
-                "reference": "090736a7a30dec4d43591cac50d119c6281864d8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/proseeds/proseeds/zipball/090736a7a30dec4d43591cac50d119c6281864d8",
-                "reference": "090736a7a30dec4d43591cac50d119c6281864d8",
-                "shasum": ""
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "master": "0.0.1"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "proseeds\\": "."
-                }
-            },
-            "authors": [
-                {
-                    "name": "proseeds",
-                    "email": "info@pro-seeds.com"
-                }
-            ],
-            "description": "proseeds common modules",
-            "support": {
-                "source": "https://github.com/proseeds/proseeds/tree/master",
-                "issues": "https://github.com/proseeds/proseeds/issues"
-            },
-            "time": "2015-08-21 08:03:44"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -995,9 +957,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "proseeds/proseeds": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
