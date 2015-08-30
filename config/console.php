@@ -26,6 +26,12 @@ return [
             ],
         ],
         'db' => $db,
+        'urlManager' => [
+            'class' => 'yii\web\UrlManager',
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'baseUrl' => 'http://tokyosearch.vagrant/'
+        ],
     ],
     'params' => $params,
 ];

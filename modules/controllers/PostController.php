@@ -17,15 +17,13 @@ class PostController extends DefaultController
 
     public function actionIndex($location_id = null)
     {
-        $instagram = new Instagram();
-        $this->renderJsonpForJquery($instagram->getPosts(['location_id' => $location_id]));
+        $this->renderJsonpForJquery(Instagram::getPosts(['location_id' => $location_id]));
     }
 
     public function actionPostsByLocation()
     {
         $location = new Location();
         $location->attributes = Yii::$app->request->get();
-        $instagram = new Instagram();
-        $this->renderJsonpForJquery($instagram->getPostsByLocation($location));
+        $this->renderJsonpForJquery(Instagram::getPostsByLocation($location));
     }
 }

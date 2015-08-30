@@ -18,8 +18,7 @@ class PlaceController extends DefaultController{
     {
         $location = new Location();
         $location->attributes = Yii::$app->request->get();
-        $instagram = new Instagram();
-        $this->renderJsonpForJquery($instagram->getPlaces($location));
+        $this->renderJsonpForJquery(Instagram::getPlaces($location));
     }
 
 }
